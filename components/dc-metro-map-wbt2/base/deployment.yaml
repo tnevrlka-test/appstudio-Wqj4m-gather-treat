@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: dc-metro-map-wbt2
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-appstudio-qe/release-e2e-bundle-tenant/appstudio/dc-metro-map-wbt2@sha256:810ce3428bd800f725199980ca73c3cb8c7e393fb8c11533aa81cf3e6747320a
         name: my-nodejs
         ports:
         - containerPort: 3001
